@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8559b8e0-4c79-4087-8759-2229635dda98" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../InternProject1/Assets/movement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RampCollision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../InternProject1/Assets/cameramove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../InternProject1/Assets/LevelScenes/SkeeBall/Ground/Scripts/LevelEndTrigger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DumpRebounce.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LevelScenes/Objects/Scripts/LengthGateHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DumpSection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LevelScenes/Objects/Scripts/GridMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GridHandle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../soap-it-up/Assets/2-Scripts/SoapManagement/ParticleCollision.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../soap-it-up/Assets/2-Scripts/PlayerManagement/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/cameramove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../soap-it-up/Assets/2-Scripts/SoapManagement/ParticleEffectSpawner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GetGrid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../soap-it-up/Assets/2-Scripts/Managers/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../soap-it-up/Assets/2-Scripts/SoapManagement/CubeSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../soap-it-up/Assets/2-Scripts/SoapManagement/FadeRoutine.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/../soap-it-up/Assets/2-Scripts/SoapManagement/CubeSpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/MainScene/Scripts/ObjectPool.cs" />
+      <option value="$PROJECT_DIR$/Assets/LevelScenes/Player/Scripts/GridHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/GridHandle.cs" />
+      <option value="$PROJECT_DIR$/Assets/LevelScenes/Objects/Scripts/GateHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/MainScene/Scripts/CameraFollow.cs" />
+      <option value="$PROJECT_DIR$/Assets/MainScene/Scripts/UIManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/MainScene/Scripts/SwerveInputSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/MainScene/Scripts/EventManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/LevelScenes/Player/Scripts/PlayerMovementandRotation.cs" />
+      <option value="$PROJECT_DIR$/Assets/LevelScenes/Objects/Scripts/WidthGateHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/GetGrid.cs" />
+      <option value="$PROJECT_DIR$/Assets/LevelScenes/Objects/Scripts/LengthGateHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/RampCollision.cs" />
+      <option value="$PROJECT_DIR$/Assets/BeforeRamp.cs" />
+      <option value="$PROJECT_DIR$/Assets/MainScene/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/LevelScenes/Objects/Scripts/GridMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Grid.cs" />
+      <option value="$PROJECT_DIR$/Assets/cameramove.cs" />
+      <option value="$PROJECT_DIR$/Assets/DumpRebounce.cs" />
+      <option value="$PROJECT_DIR$/Assets/DumpSection.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="27sa825wXpRs1bWlmlMmKSfnpI8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8559b8e0-4c79-4087-8759-2229635dda98" name="Default Changelist" comment="" />
+      <created>1650111090743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650111090743</updated>
+      <workItem from="1650111102336" duration="2436000" />
+      <workItem from="1650117945002" duration="358000" />
+      <workItem from="1650284228153" duration="9362000" />
+      <workItem from="1650303914857" duration="172000" />
+      <workItem from="1650466048859" duration="8257000" />
+      <workItem from="1650528702067" duration="16746000" />
+      <workItem from="1650631554943" duration="14192000" />
+      <workItem from="1650706597501" duration="13516000" />
+      <workItem from="1650733456415" duration="164000" />
+      <workItem from="1650733828720" duration="1302000" />
+      <workItem from="1650830646336" duration="1424000" />
+      <workItem from="1650874991250" duration="10180000" />
+      <workItem from="1650915650394" duration="916000" />
+      <workItem from="1650968611217" duration="5837000" />
+      <workItem from="1650994898289" duration="2227000" />
+      <workItem from="1651058496655" duration="9184000" />
+      <workItem from="1651153422882" duration="10003000" />
+      <workItem from="1651506450076" duration="2448000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
