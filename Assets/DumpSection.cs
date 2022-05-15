@@ -2,17 +2,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class DumpSection : MonoBehaviour
 {
     [SerializeField] Transform dumpParent;
+    [SerializeField] private Transform slider;
+    [SerializeField] private Transform sliderTarget;
     [NonSerialized] public bool dumped = false;
     private bool triggered = false;
-
-    private void Start()
-    {
-        
-    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -21,6 +19,7 @@ public class DumpSection : MonoBehaviour
             triggered = true;
             GameManager.Instance.dumpSection = true;
             Dump();
+            MoveSlider();
         }
     }
 
@@ -39,5 +38,13 @@ public class DumpSection : MonoBehaviour
             }
         }
         Grid.Instance.currentZ -= length;
+    }
+
+    private void MoveSlider()
+    {
+        slider.DOMove(sliderTarget.position, 1f).SetDelay(3f).OnComplete(() =>
+        {
+            GameManager.Instance.dumpSection = false;
+        });
     }
 }

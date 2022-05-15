@@ -9,13 +9,12 @@ public class Grid : Singleton<Grid>
     public GameObject[,] gridList;
     public int startX = 2;
     public int startZ = 10;
-    public int remainder = 0;
     public int plusX;
     public int plusZ;
     public int currentX;
     public int currentZ;
-    private int newSpawnx = 0;
-    private float offsetX = 0.5f;
+    public int newSpawnx = 0;
+    public float offsetX = 0.5f;
     private float offsetZ = 0.5f;
     [SerializeField] private int zSpawnOffset = -20;
     [SerializeField] private Transform frontRowParent;
