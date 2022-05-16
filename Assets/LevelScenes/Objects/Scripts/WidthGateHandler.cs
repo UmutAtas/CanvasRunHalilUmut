@@ -19,11 +19,17 @@ public class WidthGateHandler : MonoBehaviour
         //multiplier = Random.Range(1, 10);
         textNumber = Grid.Instance.currentZ * multiplier;
         txt = GetComponentInChildren<TextMeshProUGUI>();
-        txt.SetText("Width +" + textNumber.ToString());
     }
     private void Update()
     {
         textNumber = Grid.Instance.currentZ * multiplier;
-        txt.SetText("Width +" + textNumber.ToString());
+        if (textNumber > 0)
+        {
+            txt.SetText("Width +" + textNumber.ToString());
+        }
+        else if (textNumber < 0)
+        {
+            txt.SetText("Width " + textNumber.ToString());
+        }
     }
 }

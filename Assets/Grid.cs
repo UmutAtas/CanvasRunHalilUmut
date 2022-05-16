@@ -19,7 +19,6 @@ public class Grid : Singleton<Grid>
     [SerializeField] private int zSpawnOffset = -20;
     [SerializeField] private Transform frontRowParent;
     private float firstRowZLocalPos = 0f;
-
     private void Awake()
     {
         gridList = new GameObject[1000, 1000];
@@ -54,6 +53,16 @@ public class Grid : Singleton<Grid>
         gridList[x, 0].transform.SetParent(frontRowParent);
         var firstRow = gridList[x, 0].transform.localPosition;
         gridList[x, 0].transform.localPosition = new Vector3(firstRow.x, firstRow.y, 0f);
+        float hue;
+        float s;
+        float v;
+        Color.RGBToHSV(gridList[x,z].GetComponent<Renderer>().material.color,out hue , out s , out v);
+        float i = z * (360 / currentZ);
+        hue += i / 360;
+        s = 1;
+        v = 1;
+        gridList[x, z].GetComponent<Renderer>().material.color = Color.HSVToRGB(hue, s, v);
+        gridList[x / 2, 0].tag = "GateCollider";
     }
     public void GetNewWidth(int number)
     {

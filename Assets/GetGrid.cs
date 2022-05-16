@@ -8,7 +8,7 @@ public class GetGrid : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.layer == 8)
+        if (gameObject.CompareTag("GateCollider") && other.gameObject.layer == 8)
         {
             other.gameObject.layer = 9;
             if (other.TryGetComponent(out WidthGateHandler width))

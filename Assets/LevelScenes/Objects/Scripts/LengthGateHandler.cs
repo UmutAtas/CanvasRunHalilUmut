@@ -19,11 +19,17 @@ public class LengthGateHandler : MonoBehaviour
         //multiplier = Random.Range(1, 10);
         textNumber = Grid.Instance.currentX * multiplier;
         txt = GetComponentInChildren<TextMeshProUGUI>();
-        txt.SetText("Length +" + textNumber.ToString());
     }
     private void Update()
     {
         textNumber = Grid.Instance.currentX * multiplier;
-        txt.SetText("Length +" + textNumber.ToString());
+        if (textNumber > 0)
+        {
+            txt.SetText("Length +" + textNumber.ToString());
+        }
+        else if (textNumber < 0)
+        {
+            txt.SetText("Length " + textNumber.ToString());
+        }
     }
 }

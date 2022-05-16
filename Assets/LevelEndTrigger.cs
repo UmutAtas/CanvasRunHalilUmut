@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -8,15 +9,18 @@ using Random = UnityEngine.Random;
 public class LevelEndTrigger : MonoBehaviour
 {
     private bool triggered;
+    [SerializeField] private Transform pTransform;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.layer == 3 && !triggered)
         {
-            print("girdi");
+            GameManager.Instance.levelEnd = true;
+            GameManager.Instance.afterDump = false;
             triggered = true;
             GameManager.Instance.dumpSection = true;
             LevelEndForce();
+            pTransform.DOMove(new Vector3(0f, 0.125f, 268.4f), 3f);
         }
     }
 

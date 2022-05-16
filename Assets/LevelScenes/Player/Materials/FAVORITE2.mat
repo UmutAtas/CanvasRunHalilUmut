@@ -165,7 +165,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: []
     m_Floats:
     - _AdvancedTab: 0
     - _AlphaClipping: 0
@@ -213,7 +212,7 @@ Material:
     - _Initialized: 1
     - _InputTab: 1
     - _Iridescence: 1
-    - _IridescenceSize: 0
+    - _IridescenceSize: 0.03
     - _IridescenceSmoothness: 0.5
     - _IridescenceThresholdOffset: 0
     - _Light: 3
@@ -284,14 +283,14 @@ Material:
     - _ZTest: 4
     - _ZWrite: 0
     m_Colors:
-    - _AlbedoColor: {r: 1, g: 0, b: 0.38710976, a: 1}
+    - _AlbedoColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DetailColor: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveBorderColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GoochBrightColor: {r: 1, g: 0, b: 0, a: 1}
+    - _GoochBrightColor: {r: 0.8509804, g: 0.42745098, b: 0.7647059, a: 1}
     - _GoochDarkColor: {r: 0, g: 0, b: 0, a: 1}
-    - _IridescenceColor: {r: 1, g: 0.85768104, b: 0, a: 0.5}
+    - _IridescenceColor: {r: 0.54432184, g: 0.69413596, b: 0.8301887, a: 0.53333336}
     - _LightTransmissionColor: {r: 1, g: 0.65, b: 0, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimBrightColor: {r: 1, g: 1, b: 1, a: 1}

@@ -15,8 +15,17 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/DumpSection.cs" />
+      <option value="$PROJECT_DIR$/Assets/LevelScenes/Player/NewSurfaceShader.shader" />
+      <option value="$PROJECT_DIR$/Assets/LevelScenes/Player/Test.shader" />
+      <option value="$PROJECT_DIR$/Assets/Packages/_MK/MKToon/Shader/Legacy/Particles/ParticlesPBSRefraction.shader" />
+      <option value="$PROJECT_DIR$/Assets/LevelScenes/Objects/Scripts/WidthGateHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/LevelScenes/Objects/Scripts/LengthGateHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/RampCollision.cs" />
+      <option value="$PROJECT_DIR$/Assets/MainScene/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/cameramove.cs" />
       <option value="$PROJECT_DIR$/Assets/Grid.cs" />
+      <option value="$PROJECT_DIR$/Assets/GetGrid.cs" />
+      <option value="$PROJECT_DIR$/Assets/DumpSection.cs" />
       <option value="$PROJECT_DIR$/Assets/LevelEndTrigger.cs" />
     </changedPaths>
   </component>
@@ -64,6 +73,10 @@
       <option name="presentableId" value="Default" />
       <updated>1652639059298</updated>
       <workItem from="1652639071796" duration="7394000" />
+      <workItem from="1652652743983" duration="3105000" />
+      <workItem from="1652690641669" duration="8444000" />
+      <workItem from="1652707521641" duration="663000" />
+      <workItem from="1652709484494" duration="1682000" />
     </task>
     <servers />
   </component>

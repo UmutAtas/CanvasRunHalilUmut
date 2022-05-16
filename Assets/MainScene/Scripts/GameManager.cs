@@ -2,6 +2,8 @@ using System;
 using NaughtyAttributes;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 public class GameManager : Singleton<GameManager>
 {
     public float CountDown = 2f;
@@ -9,6 +11,10 @@ public class GameManager : Singleton<GameManager>
     public bool taptic = true;
     [NonSerialized] public bool dumpSection = false;
     #region GameState
+
+    [NonSerialized] public bool afterRamp = false;
+    [NonSerialized] public bool afterDump = false;
+    public bool levelEnd = false;
     public enum GAMESTATE
     {
         Start,

@@ -141,7 +141,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: +20
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -397,6 +397,18 @@ PrefabInstance:
     - target: {fileID: 19817814, guid: 9bab66baa0e42da4588ea5cd25e4f37c, type: 3}
       propertyPath: InitialModule.startColor.maxColor.a
       value: 0.59607846
+      objectReference: {fileID: 0}
+    - target: {fileID: 19817814, guid: 9bab66baa0e42da4588ea5cd25e4f37c, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19817814, guid: 9bab66baa0e42da4588ea5cd25e4f37c, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.79581356
+      objectReference: {fileID: 0}
+    - target: {fileID: 19817814, guid: 9bab66baa0e42da4588ea5cd25e4f37c, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bab66baa0e42da4588ea5cd25e4f37c, type: 3}
